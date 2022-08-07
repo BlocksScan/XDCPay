@@ -44,6 +44,60 @@
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault y Ngrave (próximamente)"
   },
+  "SIWEAddressInvalid": {
+    "message": "La dirección de la solicitud de inicio de sesión no coincide con la dirección de la cuenta que está utilizando para iniciar sesión."
+  },
+  "SIWEDomainInvalid": {
+    "message": "El sitio web en el que intenta iniciar sesión ($1) no coincide con el dominio de la solicitud de inicio de sesión. Proceda con precaución.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWEDomainWarningBody": {
+    "message": "El sitio web ($1) le pide que inicie sesión en un dominio incorrecto. Esto puede ser un ataque de phishing.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWELabelChainID": {
+    "message": "Identificador de cadena:"
+  },
+  "SIWELabelExpirationTime": {
+    "message": "Caduca el:"
+  },
+  "SIWELabelIssuedAt": {
+    "message": "Emitido el:"
+  },
+  "SIWELabelMessage": {
+    "message": "Mensaje:"
+  },
+  "SIWELabelNonce": {
+    "message": "Nonce:"
+  },
+  "SIWELabelNotBefore": {
+    "message": "No antes de:"
+  },
+  "SIWELabelRequestID": {
+    "message": "Identificador de la solicitud:"
+  },
+  "SIWELabelResources": {
+    "message": "Recursos: $1",
+    "description": "$1 represents the number of resources"
+  },
+  "SIWELabelURI": {
+    "message": "URI:"
+  },
+  "SIWELabelVersion": {
+    "message": "Versión:"
+  },
+  "SIWESiteRequestSubtitle": {
+    "message": "Este sitio solicita iniciar sesión con"
+  },
+  "SIWESiteRequestTitle": {
+    "message": "Solicitud de inicio de sesión"
+  },
+  "SIWEWarningSubtitle": {
+    "message": "Para confirmar que comprende, verifique:"
+  },
+  "SIWEWarningTitle": {
+    "message": "¿Está seguro?"
+  },
   "about": {
     "message": "Acerca de"
   },
@@ -120,6 +174,9 @@
   },
   "addAlias": {
     "message": "Agregar alias"
+  },
+  "addBlockExplorer": {
+    "message": "Agregar un explorador de bloque"
   },
   "addContact": {
     "message": "Agregar contacto"
@@ -277,6 +334,9 @@
   "approveAndInstall": {
     "message": "Aprobar e instalar"
   },
+  "approveAndUpdate": {
+    "message": "Aprobar y actualizar"
+  },
   "approveButtonText": {
     "message": "Aprobar"
   },
@@ -292,6 +352,10 @@
   },
   "approvedAsset": {
     "message": "Activo aprobado"
+  },
+  "approvedOn": {
+    "message": "Aprobado el $1",
+    "description": "$1 is the approval date for a permission"
   },
   "areYouSure": {
     "message": "¿Está seguro?"
@@ -2466,6 +2530,12 @@
   "permissionRequestCapitalized": {
     "message": "Solicitud de permiso"
   },
+  "permissionRequested": {
+    "message": "Solicitado ahora"
+  },
+  "permissionRevoked": {
+    "message": "Revocado en esta actualización"
+  },
   "permission_accessNetwork": {
     "message": "Acceda a Internet.",
     "description": "The description of the `endowment:network-access` permission."
@@ -3003,6 +3073,9 @@
   "signed": {
     "message": "Firmado"
   },
+  "signin": {
+    "message": "Iniciar sesión"
+  },
   "simulationErrorMessageV2": {
     "message": "No pudimos estimar el gas. Podría haber un error en el contrato y esta transacción podría fallar."
   },
@@ -3039,8 +3112,22 @@
   "snapInstallWarningCheck": {
     "message": "Para confirmar que comprende, marque todo."
   },
+  "snapInstallWarningCheckPlural": {
+    "message": "Para confirmar que comprende, marque todas las casillas."
+  },
+  "snapInstallWarningKeyAccess": {
+    "message": "Está otorgando acceso clave de $2 al complemento \"$1\". Esto es irrevocable y le otorga a \"$1\" el control de sus cuentas y activos de $2. Asegúrese de que confía en \"$1\" antes de continuar.",
+    "description": "The first parameter is the name of the snap and the second one is the protocol"
+  },
   "snapRequestsPermission": {
     "message": "Este complemento solicita los siguientes permisos:"
+  },
+  "snapUpdate": {
+    "message": "Actualizar complemento"
+  },
+  "snapUpdateExplanation": {
+    "message": "$1 necesita una versión más reciente de su complemento.",
+    "description": "$1 is the dapp that is requesting an update to the snap."
   },
   "snaps": {
     "message": "Complementos"
@@ -3947,6 +4034,10 @@
   "unrecognizedChain": {
     "message": "No se reconoce esta red personalizada. Antes de continuar, le recomendamos que $1",
     "description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
+  },
+  "unrecognizedProtocol": {
+    "message": "$1 (Protocolo no reconocido)",
+    "description": "Shown when the protocol is unknown by the extension. $1 is the protocol code."
   },
   "unsendableAsset": {
     "message": "El envío de tokens coleccionables (ERC-721) no se admite actualmente",

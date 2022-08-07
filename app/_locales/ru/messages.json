@@ -44,6 +44,60 @@
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault и Ngrave (скоро появятся)"
   },
+  "SIWEAddressInvalid": {
+    "message": "Адрес в запросе на вход не соответствует адресу счета, который вы используете для входа."
+  },
+  "SIWEDomainInvalid": {
+    "message": "Веб-сайт, на который вы пытаетесь войти ($1), не соответствует домену в запросе на вход. Действуйте с осторожностью.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWEDomainWarningBody": {
+    "message": "Веб-сайт ($1) просит вас войти в неправильный домен. Это может быть фишинговая атака.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWELabelChainID": {
+    "message": "Ид. блокчейна:"
+  },
+  "SIWELabelExpirationTime": {
+    "message": "Истекает в:"
+  },
+  "SIWELabelIssuedAt": {
+    "message": "Выпущено в:"
+  },
+  "SIWELabelMessage": {
+    "message": "Сообщение:"
+  },
+  "SIWELabelNonce": {
+    "message": "Одноразовый код:"
+  },
+  "SIWELabelNotBefore": {
+    "message": "Не раньше:"
+  },
+  "SIWELabelRequestID": {
+    "message": "Ид. запроса:"
+  },
+  "SIWELabelResources": {
+    "message": "Ресурсы: $1",
+    "description": "$1 represents the number of resources"
+  },
+  "SIWELabelURI": {
+    "message": "URI:"
+  },
+  "SIWELabelVersion": {
+    "message": "Версии:"
+  },
+  "SIWESiteRequestSubtitle": {
+    "message": "Этот сайт запрашивает вход с помощью"
+  },
+  "SIWESiteRequestTitle": {
+    "message": "Запрос на вход"
+  },
+  "SIWEWarningSubtitle": {
+    "message": "Отметьте, чтобы подтвердить понимание:"
+  },
+  "SIWEWarningTitle": {
+    "message": "Вы уверены?"
+  },
   "about": {
     "message": "Общие сведения"
   },
@@ -120,6 +174,9 @@
   },
   "addAlias": {
     "message": "Добавить псевдоним"
+  },
+  "addBlockExplorer": {
+    "message": "Добавить обозреватель блоков"
   },
   "addContact": {
     "message": "Добавить контакт"
@@ -277,6 +334,9 @@
   "approveAndInstall": {
     "message": "Одобрить и установить"
   },
+  "approveAndUpdate": {
+    "message": "Утвердить и обновить"
+  },
   "approveButtonText": {
     "message": "Одобрить"
   },
@@ -292,6 +352,10 @@
   },
   "approvedAsset": {
     "message": "Одобренный актив"
+  },
+  "approvedOn": {
+    "message": "Утверждено $1",
+    "description": "$1 is the approval date for a permission"
   },
   "areYouSure": {
     "message": "Вы уверены?"
@@ -2466,6 +2530,12 @@
   "permissionRequestCapitalized": {
     "message": "Запрос разрешения"
   },
+  "permissionRequested": {
+    "message": "Запрошено сейчас"
+  },
+  "permissionRevoked": {
+    "message": "Отменено в этом обновлении"
+  },
   "permission_accessNetwork": {
     "message": "Доступ в Интернет.",
     "description": "The description of the `endowment:network-access` permission."
@@ -3003,6 +3073,9 @@
   "signed": {
     "message": "Подписано"
   },
+  "signin": {
+    "message": "Войти"
+  },
   "simulationErrorMessageV2": {
     "message": "Мы не смогли оценить размер платы за газ. В контракте может быть ошибка, и эта транзакция может завершиться неудачно."
   },
@@ -3039,8 +3112,22 @@
   "snapInstallWarningCheck": {
     "message": "Чтобы подтвердить, что вы понимаете, отметьте все."
   },
+  "snapInstallWarningCheckPlural": {
+    "message": "Чтобы подтвердить, что вы понимаете, отметьте все ячейки."
+  },
+  "snapInstallWarningKeyAccess": {
+    "message": "Вы предоставляете ключ доступа $2 к привязке \"$1\". Это действие нельзя отменить, и оно предоставляет \"$1\" управление всеми счетами и активами $2. Перед тем как продолжить, убедитесь, что доверяете \"$1\".",
+    "description": "The first parameter is the name of the snap and the second one is the protocol"
+  },
   "snapRequestsPermission": {
     "message": "Этот снап запрашивает следующие разрешения:"
+  },
+  "snapUpdate": {
+    "message": "Обновить привязку"
+  },
+  "snapUpdateExplanation": {
+    "message": "$1 нужна более новая версия вашей привязки.",
+    "description": "$1 is the dapp that is requesting an update to the snap."
   },
   "snaps": {
     "message": "Снапы"
@@ -3947,6 +4034,10 @@
   "unrecognizedChain": {
     "message": "Эта пользовательская сеть не распознана. Мы рекомендуем $1, прежде чем продолжить",
     "description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
+  },
+  "unrecognizedProtocol": {
+    "message": "$1 (Нераспознанный протокол)",
+    "description": "Shown when the protocol is unknown by the extension. $1 is the protocol code."
   },
   "unsendableAsset": {
     "message": "Отправка коллекционных активов (ERC-721) сейчас не поддерживается",

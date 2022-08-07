@@ -44,6 +44,60 @@
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault & Ngrave (即将上线)"
   },
+  "SIWEAddressInvalid": {
+    "message": "登录请求中的地址与您用于登录的账户地址不匹配。"
+  },
+  "SIWEDomainInvalid": {
+    "message": "您尝试登录的网站（$1）与登录请求中的域名不匹配。请谨慎行事。",
+    "description": "$1 represents the website domain"
+  },
+  "SIWEDomainWarningBody": {
+    "message": "网站（$1）要求您登录到错误的域名。这可能是网络钓鱼攻击。",
+    "description": "$1 represents the website domain"
+  },
+  "SIWELabelChainID": {
+    "message": "链ID："
+  },
+  "SIWELabelExpirationTime": {
+    "message": "到期时间："
+  },
+  "SIWELabelIssuedAt": {
+    "message": "发行于："
+  },
+  "SIWELabelMessage": {
+    "message": "消息："
+  },
+  "SIWELabelNonce": {
+    "message": "Nonce："
+  },
+  "SIWELabelNotBefore": {
+    "message": "不早于："
+  },
+  "SIWELabelRequestID": {
+    "message": "请求ID："
+  },
+  "SIWELabelResources": {
+    "message": "资源：$1",
+    "description": "$1 represents the number of resources"
+  },
+  "SIWELabelURI": {
+    "message": "URI："
+  },
+  "SIWELabelVersion": {
+    "message": "版本："
+  },
+  "SIWESiteRequestSubtitle": {
+    "message": "此网站正在请求使用以下登录方式："
+  },
+  "SIWESiteRequestTitle": {
+    "message": "登录请求"
+  },
+  "SIWEWarningSubtitle": {
+    "message": "为表明您确认理解，请勾选："
+  },
+  "SIWEWarningTitle": {
+    "message": "您确定吗？"
+  },
   "about": {
     "message": "关于"
   },
@@ -120,6 +174,9 @@
   },
   "addAlias": {
     "message": "添加别名"
+  },
+  "addBlockExplorer": {
+    "message": "添加区块浏览器"
   },
   "addContact": {
     "message": "添加联系信息"
@@ -277,6 +334,9 @@
   "approveAndInstall": {
     "message": "批准并安装"
   },
+  "approveAndUpdate": {
+    "message": "批准并更新"
+  },
   "approveButtonText": {
     "message": "批准"
   },
@@ -293,8 +353,9 @@
   "approvedAsset": {
     "message": "已获批准的资产"
   },
-  "areYouDeveloper": {
-    "message": "您是开发人员吗？"
+  "approvedOn": {
+    "message": "于$1获得批准",
+    "description": "$1 is the approval date for a permission"
   },
   "areYouSure": {
     "message": "您确定吗？"
@@ -2397,9 +2458,6 @@
     "message": "全屏打开 MetaMask 以通过 WebHID 连接您的 ledger。",
     "description": "Shown to the user on the confirm screen when they are viewing MetaMask in a popup window but need to connect their ledger via webhid."
   },
-  "openSourceCode": {
-    "message": "检查源代码"
-  },
   "optional": {
     "message": "可选"
   },
@@ -2471,6 +2529,12 @@
   },
   "permissionRequestCapitalized": {
     "message": "权限请求"
+  },
+  "permissionRequested": {
+    "message": "立即请求"
+  },
+  "permissionRevoked": {
+    "message": "在此更新中已撤销"
   },
   "permission_accessNetwork": {
     "message": "访问互联网。",
@@ -3009,6 +3073,9 @@
   "signed": {
     "message": "已签名"
   },
+  "signin": {
+    "message": "登录"
+  },
   "simulationErrorMessageV2": {
     "message": "我们无法估算燃料。合约中可能存在错误，这笔交易可能会失败。"
   },
@@ -3045,8 +3112,22 @@
   "snapInstallWarningCheck": {
     "message": "请勾选全部以确认您理解。"
   },
+  "snapInstallWarningCheckPlural": {
+    "message": "请勾选所有方框以确认您理解。"
+  },
+  "snapInstallWarningKeyAccess": {
+    "message": "您正在向snap \"$1\"授予$2的密钥访问权限。此操作不可撤销，并会向\"$1\"授予对您的$2账户和资产的控制权。在继续之前，请确保您信任\"$1\"。",
+    "description": "The first parameter is the name of the snap and the second one is the protocol"
+  },
   "snapRequestsPermission": {
     "message": "此Snap正在请求以下权限："
+  },
+  "snapUpdate": {
+    "message": "更新Snap"
+  },
+  "snapUpdateExplanation": {
+    "message": "$1需要更新版本的snap。",
+    "description": "$1 is the dapp that is requesting an update to the snap."
   },
   "snaps": {
     "message": "Snap"
@@ -3953,6 +4034,10 @@
   "unrecognizedChain": {
     "message": "这个自定义网络无法识别。我们建议您在继续操作之前 $1",
     "description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
+  },
+  "unrecognizedProtocol": {
+    "message": "$1（未识别的协议）",
+    "description": "Shown when the protocol is unknown by the extension. $1 is the protocol code."
   },
   "unsendableAsset": {
     "message": "当前不支持发送可收藏的 (ERC-721) 代币",

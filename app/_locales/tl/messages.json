@@ -44,6 +44,60 @@
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault at Ngrave (Paparating Na)"
   },
+  "SIWEAddressInvalid": {
+    "message": "Ang address sa request sa pag-sign in ay hindi tugma sa address ng account na ginagamit mo sa pag-sign in."
+  },
+  "SIWEDomainInvalid": {
+    "message": "Ang website kung saan mo sinusubukang mag-sign in sa ($1) ay hindi tugma sa domain sa request sa pag-sign in. Magpatuloy nang may pag-iingat.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWEDomainWarningBody": {
+    "message": "Hinihiling sa iyo ng website ($1) na mag-sign in sa maling domain. Posibleng phishing na pag-atake ito.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWELabelChainID": {
+    "message": "Chain ID:"
+  },
+  "SIWELabelExpirationTime": {
+    "message": "Mag-e-expire sa:"
+  },
+  "SIWELabelIssuedAt": {
+    "message": "Inisyu sa:"
+  },
+  "SIWELabelMessage": {
+    "message": "Mensahe:"
+  },
+  "SIWELabelNonce": {
+    "message": "Nonce:"
+  },
+  "SIWELabelNotBefore": {
+    "message": "Hindi Lalampas sa:"
+  },
+  "SIWELabelRequestID": {
+    "message": "Request ID:"
+  },
+  "SIWELabelResources": {
+    "message": "Resources: $1",
+    "description": "$1 represents the number of resources"
+  },
+  "SIWELabelURI": {
+    "message": "URl:"
+  },
+  "SIWELabelVersion": {
+    "message": "Bersyon:"
+  },
+  "SIWESiteRequestSubtitle": {
+    "message": "Hinihiling ng site na ito na mag-sign in gamit ang"
+  },
+  "SIWESiteRequestTitle": {
+    "message": "Request sa pag-sign in"
+  },
+  "SIWEWarningSubtitle": {
+    "message": "Para kumpirmahin na naiintindihan mo, lagyan ng tsek ang:"
+  },
+  "SIWEWarningTitle": {
+    "message": "Sigurado ka ba?"
+  },
   "about": {
     "message": "Tungkol Dito"
   },
@@ -120,6 +174,9 @@
   },
   "addAlias": {
     "message": "Magdagdag ng alias"
+  },
+  "addBlockExplorer": {
+    "message": "Magdagdag ng block explorer"
   },
   "addContact": {
     "message": "Magdagdag ng contact"
@@ -277,6 +334,9 @@
   "approveAndInstall": {
     "message": "Aprubahan at I-install"
   },
+  "approveAndUpdate": {
+    "message": "Aprubahan at i-update"
+  },
   "approveButtonText": {
     "message": "Aprubahan"
   },
@@ -292,6 +352,10 @@
   },
   "approvedAsset": {
     "message": "Aprubadong asset"
+  },
+  "approvedOn": {
+    "message": "Inaprubahan noong $1",
+    "description": "$1 is the approval date for a permission"
   },
   "areYouSure": {
     "message": "Sigurado ka ba?"
@@ -2466,6 +2530,12 @@
   "permissionRequestCapitalized": {
     "message": "Kahilingan sa Pahintulot"
   },
+  "permissionRequested": {
+    "message": "Ni-request ngayon"
+  },
+  "permissionRevoked": {
+    "message": "Pinawalang-bisa sa update na ito"
+  },
   "permission_accessNetwork": {
     "message": "I-access ang Internet.",
     "description": "The description of the `endowment:network-access` permission."
@@ -3003,6 +3073,9 @@
   "signed": {
     "message": "Nilagdaan"
   },
+  "signin": {
+    "message": "Mag-sign In"
+  },
   "simulationErrorMessageV2": {
     "message": "Hindi namin nagawang tantyahin ang gas. Maaaring may error sa kontrata at maaaring mabigo ang transaksyong ito."
   },
@@ -3039,8 +3112,22 @@
   "snapInstallWarningCheck": {
     "message": "Para kumpirmahing naunawaan mo, tsekan lahat."
   },
+  "snapInstallWarningCheckPlural": {
+    "message": "Para kumpirmahin na naiintindihan mo, lagyan ng tsek ang lahat ng kahon."
+  },
+  "snapInstallWarningKeyAccess": {
+    "message": "Binibigyan mo ang $2 ng key access sa snap na \"$1\". Hindi na ito mababawi at nagbibigay ito sa \"$1\" ng kontrol sa iyong mga $2 account at asset. Tiyaking pinagkakatiwalaan mo ang \"$1\" bago magpatuloy.",
+    "description": "The first parameter is the name of the snap and the second one is the protocol"
+  },
   "snapRequestsPermission": {
     "message": "Hinihiling ng snap na ito ang mga sumusunod na pahintulot:"
+  },
+  "snapUpdate": {
+    "message": "I-update ang Snap"
+  },
+  "snapUpdateExplanation": {
+    "message": "Kailangan ng $1 ng bagong bersyon ng iyong snap.",
+    "description": "$1 is the dapp that is requesting an update to the snap."
   },
   "snaps": {
     "message": "Mga Snap"
@@ -3947,6 +4034,10 @@
   "unrecognizedChain": {
     "message": "Hindi nakikilala ang custom network na ito. Nirerekomenda namin na ikaw ay $1 bago magpatuloy",
     "description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
+  },
+  "unrecognizedProtocol": {
+    "message": "$1 (Hindi nakikilalang protocol)",
+    "description": "Shown when the protocol is unknown by the extension. $1 is the protocol code."
   },
   "unsendableAsset": {
     "message": "Ang pagpapadala ng collectible (ERC-721) token ay kasalukuyang hindi magagamit",

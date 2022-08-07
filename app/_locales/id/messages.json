@@ -44,6 +44,60 @@
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault & Ngrave (Segera Hadir)"
   },
+  "SIWEAddressInvalid": {
+    "message": "Alamat pada permintaan masuk tidak sesuai dengan alamat akun yang Anda gunakan untuk masuk."
+  },
+  "SIWEDomainInvalid": {
+    "message": "Situs web yang Anda coba masuki ($1) tidak sesuai dengan domain pada permintaan masuk. Lanjutkan dengan hati-hati.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWEDomainWarningBody": {
+    "message": "Situs web ($1) meminta Anda untuk masuk ke domain yang salah. Kemungkinan ini merupakan serangan pengelabuan.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWELabelChainID": {
+    "message": "ID Rantai:"
+  },
+  "SIWELabelExpirationTime": {
+    "message": "Berakhir Pada:"
+  },
+  "SIWELabelIssuedAt": {
+    "message": "Diterbitkan Pada:"
+  },
+  "SIWELabelMessage": {
+    "message": "Pesan:"
+  },
+  "SIWELabelNonce": {
+    "message": "Nonce:"
+  },
+  "SIWELabelNotBefore": {
+    "message": "Tidak Sebelum:"
+  },
+  "SIWELabelRequestID": {
+    "message": "ID Permintaan:"
+  },
+  "SIWELabelResources": {
+    "message": "Sumber daya: $1",
+    "description": "$1 represents the number of resources"
+  },
+  "SIWELabelURI": {
+    "message": "URI:"
+  },
+  "SIWELabelVersion": {
+    "message": "Versi:"
+  },
+  "SIWESiteRequestSubtitle": {
+    "message": "Situs ini meminta untuk masuk dengan"
+  },
+  "SIWESiteRequestTitle": {
+    "message": "Permintaan masuk"
+  },
+  "SIWEWarningSubtitle": {
+    "message": "Untuk mengonfirmasikan bahwa Anda memahaminya, centang:"
+  },
+  "SIWEWarningTitle": {
+    "message": "Anda yakin?"
+  },
   "about": {
     "message": "Tentang"
   },
@@ -120,6 +174,9 @@
   },
   "addAlias": {
     "message": "Tambahkan alias"
+  },
+  "addBlockExplorer": {
+    "message": "Tambahkan block penjelajah"
   },
   "addContact": {
     "message": "Tambah kontak"
@@ -277,6 +334,9 @@
   "approveAndInstall": {
     "message": "Setujui & Instal"
   },
+  "approveAndUpdate": {
+    "message": "Setujui dan perbarui"
+  },
   "approveButtonText": {
     "message": "Setujui"
   },
@@ -292,6 +352,10 @@
   },
   "approvedAsset": {
     "message": "Aset yang disetujui"
+  },
+  "approvedOn": {
+    "message": "Disetujui pada $1",
+    "description": "$1 is the approval date for a permission"
   },
   "areYouSure": {
     "message": "Anda yakin?"
@@ -2466,6 +2530,12 @@
   "permissionRequestCapitalized": {
     "message": "Permintaan Izin"
   },
+  "permissionRequested": {
+    "message": "Diminta sekarang"
+  },
+  "permissionRevoked": {
+    "message": "Dicabut dalam pembaruan ini"
+  },
   "permission_accessNetwork": {
     "message": "Akses Internet.",
     "description": "The description of the `endowment:network-access` permission."
@@ -3003,6 +3073,9 @@
   "signed": {
     "message": "Ditandatangani"
   },
+  "signin": {
+    "message": "Masuk"
+  },
   "simulationErrorMessageV2": {
     "message": "Kami tidak dapat memperkirakan gas. Tampaknya ada kesalahan dalam kontrak dan transaksi ini berpotensi gagal."
   },
@@ -3039,8 +3112,22 @@
   "snapInstallWarningCheck": {
     "message": "Untuk mengonfirmasikan Anda sudah paham, centang semua."
   },
+  "snapInstallWarningCheckPlural": {
+    "message": "Untuk mengonfirmasikan bahwa Anda memahaminya, centang semua kotak."
+  },
+  "snapInstallWarningKeyAccess": {
+    "message": "Anda memberikan $2 akses kunci ke snap \"$1\". Tindakan ini tidak dapat dibatalkan dan memberikan kendali \"$1\" atas akun dan aset $2 Anda. Sebelum melanjutkan, pastikan \"$1\" aman.",
+    "description": "The first parameter is the name of the snap and the second one is the protocol"
+  },
   "snapRequestsPermission": {
     "message": "Snap ini meminta izin berikut:"
+  },
+  "snapUpdate": {
+    "message": "Perbarui Snap"
+  },
+  "snapUpdateExplanation": {
+    "message": "$1 memerlukan versi snap yang lebih baru.",
+    "description": "$1 is the dapp that is requesting an update to the snap."
   },
   "snaps": {
     "message": "Snap"
@@ -3947,6 +4034,10 @@
   "unrecognizedChain": {
     "message": "Jaringan kustom ini tidak dikenali. Kami menyarankan agar Anda $1 sebelum melanjutkan",
     "description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
+  },
+  "unrecognizedProtocol": {
+    "message": "$1 (Protokol tak dikenal)",
+    "description": "Shown when the protocol is unknown by the extension. $1 is the protocol code."
   },
   "unsendableAsset": {
     "message": "Tidak mendukung pengiriman token koleksi (ERC-721) untuk saat ini",

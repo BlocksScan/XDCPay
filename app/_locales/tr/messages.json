@@ -44,6 +44,60 @@
   "QRHardwareWalletSteps2Description": {
     "message": "AirGap Vault & Ngrave (Çok Yakında)"
   },
+  "SIWEAddressInvalid": {
+    "message": "Giriş talebindeki adres, giriş yapmak için kullandığınız hesapla uyumlu değil."
+  },
+  "SIWEDomainInvalid": {
+    "message": "Giriş yapmaya çalıştığınız web sitesi ($1) giriş talebindeki alan ile uyumlu değil. Dikkati olarak ilerleyin.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWEDomainWarningBody": {
+    "message": "Web sitesi ($1) yanlış alana giriş yapmanızı istiyor. Bu bir dolandırıcılık saldırısı olabilir.",
+    "description": "$1 represents the website domain"
+  },
+  "SIWELabelChainID": {
+    "message": "Zincir Kimliği:"
+  },
+  "SIWELabelExpirationTime": {
+    "message": "Son kullanma tarihi:"
+  },
+  "SIWELabelIssuedAt": {
+    "message": "Düzenlenme tarihi:"
+  },
+  "SIWELabelMessage": {
+    "message": "Mesaj:"
+  },
+  "SIWELabelNonce": {
+    "message": "Geçici anahtar:"
+  },
+  "SIWELabelNotBefore": {
+    "message": "En Erken:"
+  },
+  "SIWELabelRequestID": {
+    "message": "Talep Kimliği:"
+  },
+  "SIWELabelResources": {
+    "message": "Kaynaklar: $1",
+    "description": "$1 represents the number of resources"
+  },
+  "SIWELabelURI": {
+    "message": "URI:"
+  },
+  "SIWELabelVersion": {
+    "message": "Sürüm:"
+  },
+  "SIWESiteRequestSubtitle": {
+    "message": "Bu site şununla giriş yapmak istiyor:"
+  },
+  "SIWESiteRequestTitle": {
+    "message": "Giriş talebi"
+  },
+  "SIWEWarningSubtitle": {
+    "message": "Anladığınızı doğrulamak için şunu işaretleyin:"
+  },
+  "SIWEWarningTitle": {
+    "message": "Emin misiniz?"
+  },
   "about": {
     "message": "Hakkında"
   },
@@ -120,6 +174,9 @@
   },
   "addAlias": {
     "message": "Diğer adı ekle"
+  },
+  "addBlockExplorer": {
+    "message": "Bir blok gezgini ekle"
   },
   "addContact": {
     "message": "Kişi ekle"
@@ -277,6 +334,9 @@
   "approveAndInstall": {
     "message": "Onayla ve Yükle"
   },
+  "approveAndUpdate": {
+    "message": "Onayla ve güncelle"
+  },
   "approveButtonText": {
     "message": "Onayla"
   },
@@ -292,6 +352,10 @@
   },
   "approvedAsset": {
     "message": "Onaylanan varlık"
+  },
+  "approvedOn": {
+    "message": "$1 üzerinde onaylandı",
+    "description": "$1 is the approval date for a permission"
   },
   "areYouSure": {
     "message": "Emin misin?"
@@ -2466,6 +2530,12 @@
   "permissionRequestCapitalized": {
     "message": "İzin Talebi"
   },
+  "permissionRequested": {
+    "message": "Şimdi talep edildi"
+  },
+  "permissionRevoked": {
+    "message": "Bu güncellemede iptal edildi"
+  },
   "permission_accessNetwork": {
     "message": "İnternete erişim sağla.",
     "description": "The description of the `endowment:network-access` permission."
@@ -3003,6 +3073,9 @@
   "signed": {
     "message": "İmzalandı"
   },
+  "signin": {
+    "message": "Giriş"
+  },
   "simulationErrorMessageV2": {
     "message": "Gaz tahmini yapamadık. Sözleşmede bir hata olabilir ve bu işlem başarısız olabilir."
   },
@@ -3039,8 +3112,22 @@
   "snapInstallWarningCheck": {
     "message": "Anladığını doğrulamak için hepsini kontrol et."
   },
+  "snapInstallWarningCheckPlural": {
+    "message": "Anladığınızı kontrol etmek için tüm kutuları işaretleyin."
+  },
+  "snapInstallWarningKeyAccess": {
+    "message": "\"$1\" için $2 anahtar erişimi veriyorsunuz. Bu iptal edilemez ve $2 hesaplarınıza ve varlıklarınıza \"$1\" kontrolü verir. İlerlemeden önce \"$1\" alanına güvendiğinizden emin olun.",
+    "description": "The first parameter is the name of the snap and the second one is the protocol"
+  },
   "snapRequestsPermission": {
     "message": "Bu ek, aşağıdaki izinleri istiyor:"
+  },
+  "snapUpdate": {
+    "message": "Snap'i Güncelle"
+  },
+  "snapUpdateExplanation": {
+    "message": "$1 için daha yeni bir snap sürümü gerekli.",
+    "description": "$1 is the dapp that is requesting an update to the snap."
   },
   "snaps": {
     "message": "Snap'ler"
@@ -3947,6 +4034,10 @@
   "unrecognizedChain": {
     "message": "Bu özel ağ tanınmadı. Devam etmeden önce $1 öneririz",
     "description": "$1 is a clickable link with text defined by the 'unrecognizedChanLinkText' key. The link will open to instructions for users to validate custom network details."
+  },
+  "unrecognizedProtocol": {
+    "message": "$1 (Tanınmayan protokol)",
+    "description": "Shown when the protocol is unknown by the extension. $1 is the protocol code."
   },
   "unsendableAsset": {
     "message": "Toplanabilir (ERC-721) tokenlerin gönderilmesi şu anda desteklenmiyor",
