@@ -40,12 +40,14 @@ export function getCustomGasTotal (state) {
   return state.gas.customData.total
 }
 
-export function getBasicGasEstimateLoadingStatus (state) {
-  return state.gas.basicEstimateIsLoading
+export function getBasicGasEstimateLoadingStatus () {
+  // return state.gas.basicEstimateIsLoading // will enable again when API for gas endpoint is ready
+  return false
 }
 
 export function getGasEstimatesLoadingStatus (state) {
-  return state.gas.gasEstimatesLoading
+  // return state.gas.gasEstimatesLoading // will enable again when API for gas endpoint is ready
+  return false
 }
 
 export function getPriceAndTimeEstimates (state) {
@@ -53,7 +55,8 @@ export function getPriceAndTimeEstimates (state) {
 }
 
 export function getEstimatedGasPrices (state) {
-  return getPriceAndTimeEstimates(state).map(({ gasprice }) => gasprice)
+  // return getPriceAndTimeEstimates(state).map(({ gasprice }) => gasprice) //will enable again when API for gas endpoint is ready
+  return 15
 }
 
 export function getEstimatedGasTimes (state) {
@@ -67,7 +70,7 @@ export function getAveragePriceEstimateInHexWEI (state) {
 
 export function getFastPriceEstimateInHexWEI (state) {
   const fastPriceEstimate = state.gas.basicEstimates.fast
-  return getGasPriceInHexWei(fastPriceEstimate || '0x0')
+  return getGasPriceInHexWei(fastPriceEstimate || '0xF')
 }
 
 export function getDefaultActiveButtonIndex (gasButtonInfo, customGasPriceInHex, gasPrice) {
@@ -192,9 +195,9 @@ export function getGasPriceInHexWei (price) {
 }
 
 export function getRenderableBasicEstimateData (state, gasLimit) {
-  if (getBasicGasEstimateLoadingStatus(state)) {
-    return []
-  }
+  // if (getBasicGasEstimateLoadingStatus(state)) {
+  //   return []
+  // } // will enable again when API for gas endpoint is ready
   const { showFiatInTestnets } = getPreferences(state)
   const isMainnet = getIsMainnet(state)
   const showFiat = (isMainnet || Boolean(showFiatInTestnets))
@@ -245,9 +248,9 @@ export function getRenderableBasicEstimateData (state, gasLimit) {
 }
 
 export function getRenderableEstimateDataForSmallButtonsFromGWEI (state) {
-  if (getBasicGasEstimateLoadingStatus(state)) {
-    return []
-  }
+  // if (getBasicGasEstimateLoadingStatus(state)) {
+  //   return []
+  // } // will enable again when API for gas endpoint is ready
 
   const { showFiatInTestnets } = getPreferences(state)
   const isMainnet = getIsMainnet(state)

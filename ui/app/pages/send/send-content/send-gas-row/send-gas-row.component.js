@@ -147,7 +147,8 @@ export default class SendGasRow extends Component {
       </div>
     )
     // Tests should behave in same way as mainnet, but are using Localhost
-    if (advancedInlineGasShown || (!isMainnet && !process.env.IN_TEST)) {
+    // if (advancedInlineGasShown || (!isMainnet && !process.env.IN_TEST)) { // will enable this when gas estimation endpoint is ready
+    if (advancedInlineGasShown || (!process.env.IN_TEST)) {
       return advancedGasInputs
     } else if (gasButtonGroupShown) {
       return gasPriceButtonGroup
